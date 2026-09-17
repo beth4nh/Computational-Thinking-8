@@ -5,3 +5,8 @@ name = input("what is your name?")
 print(f"Hello {name} and welome to CT8")
 sign_off_message = "Thats all, have a great day !"
 print(sign_off_message)
+print("__       __  __ ")
+print("  / /  ___ / /_/ /") 
+print(" / _ \/ -_) __/ _ \ ")
+print("/_.__/\__/\__/_//_/")
+                       
