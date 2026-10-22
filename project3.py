@@ -5,6 +5,7 @@ yourname_SAAS = 0
 F13ldofFl0w3rsxx = 0
 _ABCdefg00 = 0
 
+#1
 answer0 = input("First question. What is your name ?")
 answer1 = input("Perfect ! How would you spend your ideal free time ? A. or a walk or run , B. Doing homework , or C. spending time on your hobbies ? ")
 if answer1 == "A":
@@ -14,6 +15,7 @@ elif answer1 == "B":
 elif answer1 == "C":
     _ABCdefg00 += 2
 
+#2
 answer2 = input("Okay... now, which drink would you choose ? A. Water , B. Diet coke or pepsi , or C. A coffee ?")
 if answer2 == "A":
     yourname_SAAS += 1
@@ -22,6 +24,7 @@ elif answer2 == "B":
 elif answer2 == "C":
     F13ldofFl0w3rsxx += 2
 
+#3
 answer3 = input("Great choice ! if you had to choose a niche pet would it be A. a chinchilla , B. an axolotl , or C. a ferret ?")
 if answer3 == "C":
     _ABCdefg00 += 2
@@ -30,6 +33,7 @@ elif answer3 == "B":
 elif answer3 == "A":
     yourname_SAAS += 1
 
+#4
 answer4 = input("Nearly there ! What scary movie would you rather watch ? A. Ginger Snaps , B. Nightmare before Christmas , C. The Conjuring?")
 if answer4 == "A":
     _ABCdefg00 
@@ -37,6 +41,7 @@ if answer4 == "A":
 elif answer4 == "C" or "B":
     yourname_SAAS += 3
 
+#5
 answer5 = input("Last question !! Whats your favorite season ? A. spring B. summer C. fall , or D, winter")
 if answer5 == "B" or "D":
     yourname_SAAS += 1
@@ -76,6 +81,3 @@ if answer7 == 'yes' or 'Yes':
     print(" YAY ! ")
 elif answer7 == 'no' or 'No':
     print(" oh ")
-
- 
- 
