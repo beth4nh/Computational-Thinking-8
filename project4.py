@@ -2,6 +2,21 @@ import random
 
 print("Oh wow look ! A field !")
 print(" We should go looking for some four leafed clovers , for good luck!")
+answer=input("Are you excited ? DO YOU THINK WE'LL FIND ANY !!!?? ")
+# This line is asking the player wether or not they want to play
+
+if answer== "Yes" or answer == "Sure":
+    print()
+    print("YAY ! Me too !")
+# If they answer "Yes" or "Sure" they will get an extra bit of dialogue and the game will continue 
+
+if answer== "No" or answer == "not really":
+    print()
+    print("Then why are you even here ???")
+    print("I mean whatever then just go home")
+    quit()
+# If they answer "No" or "Not really" they will get a different piece of dialogue and the game will stop
+
 print( )
 print(" But ohh .... the grass is the same colour as them ... looks like you're gonna have to guess where they are ")
 
