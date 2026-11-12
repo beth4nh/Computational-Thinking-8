@@ -20,7 +20,7 @@ if answer== "No" or answer == "not really":
 print( )
 print(" But ohh .... the grass is the same colour as them ... looks like you're gonna have to guess where they are ")
 
-clover = random.randint (0,15)
+clover = random.randint (0,30)
 
 # the loop starts here ! If you win , it ends on line 17 .
 
